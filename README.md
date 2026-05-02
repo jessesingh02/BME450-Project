@@ -13,3 +13,5 @@ The project involves preprocessing the image data, including resizing, normaliza
 
 The goal of this project is to demonstrate how deep learning models can be used for medical image classification and to evaluate how model design and parameter choices influence performance.
 
+Dataset: https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
+
