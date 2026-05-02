@@ -1,7 +1,7 @@
 # BME450-project
 
 # Title
-Shot Detection
+Brain Tumor Classification
 
 ## Team members
 Kushal Muthamsetty (kushalmuthamsetty), Jaskaran Singh (jessesingh02)
