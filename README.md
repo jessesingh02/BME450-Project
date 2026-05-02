@@ -7,7 +7,9 @@ Shot Detection
 Kushal Muthamsetty (kushalmuthamsetty), Jaskaran Singh (jessesingh02)
 
 ## Project Description
-In this project, we develop a deep learning model that classifies basketball shot attempts as either a make or a miss using video data. The goal is to train a model that can learn visual patterns associated with successful and unsuccessful shot attempts, enabling automated analysis of basketball scoring.
+This project focuses on applying deep learning techniques to classify brain tumors from MRI images. Using a labeled dataset from Kaggle, we aim to train a Convolutional Neural Network (CNN) to categorize MRI scans into four classes: glioma tumor, meningioma tumor, pituitary tumor, and no tumor.
 
-The input to the model consists of video clips, where each clip contains a single shot attempt. A deep learning model combined with a temporal model like an LSTM, is used to extract spatial features from individual frames and capture motion information across the sequence. Based on these learned features, the model predicts whether the shot results in a made basket or a miss. The dataset will be divided into training and testing sets. The training data will be used to teach the model to recognize patterns associated with made and missed shots, while the testing data will be used to evaluate how well the model categorizes new examples. Model performance will be assessed using metrics such as accuracy and precision.
+The project involves preprocessing the image data, including resizing, normalization, and augmentation, followed by training the neural network to learn distinguishing features between different tumor types. We will also explore the impact of different hyperparameter settings, such as learning rate, batch size, and dropout, while keeping the model architecture constant.
+
+The goal of this project is to demonstrate how deep learning models can be used for medical image classification and to evaluate how model design and parameter choices influence performance.
 
